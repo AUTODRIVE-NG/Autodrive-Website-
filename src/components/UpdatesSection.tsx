@@ -16,7 +16,7 @@ const updates: Update[] = [
   {
     date: "June 12, 2025",
     tag: "🚀 Launch",
-    tagColor: "bg-forest-green/15 text-forest-green border-forest-green/30",
+    tagColor: "bg-amber/15 text-amber border-amber/30",
     title: "AutoDrive Beta is Now Live on Android",
     body: "After two years of building, testing, and iterating — our beta is finally live on the Google Play Store. Limited spots available. If you drive in Nigeria, this is for you.",
     link: { label: "Join the Beta", href: "https://forms.gle/G3Z2agiFyVE1cEWj8" },
@@ -45,7 +45,7 @@ const updates: Update[] = [
   {
     date: "December 25, 2024",
     tag: "🎄 Milestone",
-    tagColor: "bg-forest-green/15 text-forest-green border-forest-green/30",
+    tagColor: "bg-amber/15 text-amber border-amber/30",
     title: "Version 2 Launched — First Real App, First Real Users",
     body: "A full working app with a Hub, Mechanics section, and navigation. Launched on Christmas Day 2024 because we don't take days off when there's a problem to solve. First real users. First real feedback.",
   },
@@ -103,7 +103,7 @@ export default function UpdatesSection() {
                     href={update.link.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 text-forest-green font-semibold text-sm hover:gap-3 transition-all"
+                    className="inline-flex items-center gap-2 text-amber font-semibold text-sm hover:gap-3 transition-all"
                   >
                     {update.link.label}
                     <ArrowRight className="w-4 h-4" />

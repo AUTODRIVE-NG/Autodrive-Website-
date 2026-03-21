@@ -150,7 +150,7 @@ export default function FeaturesSection() {
         >
           <h2 className="font-lora text-4xl md:text-5xl font-bold text-navy mb-4">
             Everything Your Car Needs.{" "}
-            <span className="text-forest-green">All in One Place.</span>
+            <span className="text-amber">All in One Place.</span>
           </h2>
         </motion.div>
 
@@ -166,7 +166,7 @@ export default function FeaturesSection() {
             >
               {/* Text */}
               <div className={feature.flip ? "lg:order-2" : "lg:order-1"}>
-                <div className="inline-flex items-center gap-3 bg-forest-green/10 text-forest-green px-4 py-2 rounded-full mb-5">
+                <div className="inline-flex items-center gap-3 bg-amber/10 text-amber px-4 py-2 rounded-full mb-5">
                   <feature.icon className="w-5 h-5" />
                   <span className="text-sm font-semibold">Feature 0{i + 1}</span>
                 </div>
@@ -179,7 +179,7 @@ export default function FeaturesSection() {
                 <ul className="space-y-3">
                   {feature.details.map((detail, j) => (
                     <li key={j} className="flex items-start gap-3 text-navy/70">
-                      <span className="w-5 h-5 rounded-full bg-forest-green/20 text-forest-green flex items-center justify-center flex-shrink-0 mt-0.5 text-xs font-bold">
+                      <span className="w-5 h-5 rounded-full bg-amber/20 text-amber flex items-center justify-center flex-shrink-0 mt-0.5 text-xs font-bold">
                         ✓
                       </span>
                       {detail}

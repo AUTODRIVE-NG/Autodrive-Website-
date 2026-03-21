@@ -23,7 +23,7 @@ export default function IntroSection() {
         >
           <h2 className="font-lora text-4xl md:text-5xl font-bold text-white mb-6">
             One App. Every Car Need.{" "}
-            <span className="text-soft-green">Zero Stress.</span>
+            <span className="text-amber">Zero Stress.</span>
           </h2>
           <p className="text-white/70 text-xl leading-relaxed max-w-3xl mx-auto">
             AutoDrive is a Nigerian-built mobile app that puts your entire car

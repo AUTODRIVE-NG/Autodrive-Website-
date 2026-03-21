@@ -48,7 +48,7 @@ function FAQItem({ q, a, index }: { q: string; a: string; index: number }) {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.4, delay: index * 0.05 }}
-      className="border border-gray-200 rounded-2xl overflow-hidden hover:border-forest-green/40 transition-colors"
+      className="border border-gray-200 rounded-2xl overflow-hidden hover:border-amber/40 transition-colors"
     >
       <button
         onClick={() => setOpen(!open)}
@@ -62,7 +62,7 @@ function FAQItem({ q, a, index }: { q: string; a: string; index: number }) {
           transition={{ duration: 0.2 }}
           className="flex-shrink-0"
         >
-          <ChevronDown className="w-5 h-5 text-forest-green" />
+          <ChevronDown className="w-5 h-5 text-amber" />
         </motion.div>
       </button>
 
@@ -98,7 +98,7 @@ export default function FAQSection() {
         >
           <h2 className="font-lora text-4xl md:text-5xl font-bold text-navy mb-4">
             Questions People Ask{" "}
-            <span className="text-forest-green">Us All the Time</span>
+            <span className="text-amber">Us All the Time</span>
           </h2>
           <p className="text-xl text-navy/60">
             No jargon. Just straight answers.

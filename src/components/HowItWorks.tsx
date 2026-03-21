@@ -32,9 +32,9 @@ const steps = [
     icon: Download,
     title: "Download & Sign Up",
     body: "Create your account in minutes. Add your name, phone number, and your driver's licence details. No complicated forms — we keep it simple.",
-    numColor: "text-forest-green",
-    accent: "border-forest-green/30",
-    iconColor: "bg-forest-green/10 text-forest-green",
+    numColor: "text-amber",
+    accent: "border-amber/30",
+    iconColor: "bg-amber/10 text-amber",
     image: { src: "/images/frame-565.png", alt: "AutoDrive splash screen", cropPosition: "top" },
   },
   {
@@ -62,9 +62,9 @@ const steps = [
     icon: CreditCard,
     title: "Renew With One Tap",
     body: "When something is due, you get a reminder. Tap to renew. Pay securely in the app. We handle the rest — printing, processing, and delivery straight to your doorstep in Lagos within 24–48 hours.",
-    numColor: "text-forest-green",
-    accent: "border-soft-green/40",
-    iconColor: "bg-soft-green/20 text-forest-green",
+    numColor: "text-amber",
+    accent: "border-amber/40",
+    iconColor: "bg-amber/20 text-amber",
     image: { src: "/images/frame-567.png", alt: "Renewal order with live tracking", cropPosition: "top" },
   },
 ];
@@ -82,7 +82,7 @@ export default function HowItWorks() {
         >
           <h2 className="font-lora text-4xl md:text-5xl font-bold text-navy mb-4">
             Getting Started Is as Easy as{" "}
-            <span className="text-forest-green">Sending a WhatsApp</span>
+            <span className="text-amber">Sending a WhatsApp</span>
           </h2>
           <p className="text-xl text-navy/60 max-w-2xl mx-auto">
             We made AutoDrive simple enough for anyone in the family to use.

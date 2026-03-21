@@ -34,7 +34,7 @@ function RotatingPhone() {
   return (
     <div className="relative flex flex-col items-center">
       {/* Glow behind phone */}
-      <div className="absolute inset-0 bg-forest-green/15 rounded-full blur-3xl scale-75 opacity-70 pointer-events-none" />
+      <div className="absolute inset-0 bg-amber/15 rounded-full blur-3xl scale-75 opacity-70 pointer-events-none" />
 
       {/* Black iPhone shell */}
       <div className="relative bg-[#1a1a1a] rounded-[3rem] p-[4px] shadow-2xl shadow-black/50 w-[260px]">
@@ -80,7 +80,7 @@ function RotatingPhone() {
             key={i}
             onClick={() => setCurrent(i)}
             className={`h-1 rounded-full transition-all duration-300 ${
-              i === current ? "w-5 bg-forest-green" : "w-1.5 bg-gray-300"
+              i === current ? "w-5 bg-amber" : "w-1.5 bg-gray-300"
             }`}
           />
         ))}
@@ -104,15 +104,15 @@ export default function HeroSection() {
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.2 }}
-              className="inline-flex items-center gap-2 bg-forest-green/10 text-forest-green text-sm font-semibold px-4 py-2 rounded-full mb-6 border border-forest-green/20"
+              className="inline-flex items-center gap-2 bg-amber/10 text-amber text-sm font-semibold px-4 py-2 rounded-full mb-6 border border-amber/20"
             >
-              <span className="w-2 h-2 bg-soft-green rounded-full animate-pulse" />
+              <span className="w-2 h-2 bg-amber rounded-full animate-pulse" />
               Beta Live on Android
             </motion.div>
 
             <h1 className="font-lora text-4xl md:text-5xl lg:text-5xl xl:text-6xl font-bold text-navy leading-tight mb-6">
               Stop Worrying About Your Car Papers.{" "}
-              <span className="text-forest-green">We Handle Everything</span>{" "}
+              <span className="text-amber">We Handle Everything</span>{" "}
               For You.
             </h1>
 
@@ -128,13 +128,13 @@ export default function HeroSection() {
                 href={BETA_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 bg-forest-green hover:bg-navy text-white font-semibold text-lg px-7 py-4 rounded-full transition-colors shadow-lg shadow-forest-green/25"
+                className="inline-flex items-center justify-center gap-2 bg-amber hover:bg-navy text-white font-semibold text-lg px-7 py-4 rounded-full transition-colors shadow-lg shadow-amber/25"
               >
                 <Download className="w-5 h-5" />
                 Download the App (Android Beta)
               </a>
               <Link
-                href="/how-it-works"
+                href="/features"
                 className="inline-flex items-center justify-center gap-2 border-2 border-navy text-navy hover:bg-navy hover:text-white font-semibold text-lg px-7 py-4 rounded-full transition-colors"
               >
                 See How It Works
@@ -145,7 +145,7 @@ export default function HeroSection() {
             <div className="grid grid-cols-2 gap-3">
               {trustItems.map(({ icon: Icon, text }) => (
                 <div key={text} className="flex items-center gap-2.5 text-navy/70">
-                  <Icon className="w-5 h-5 text-forest-green flex-shrink-0" />
+                  <Icon className="w-5 h-5 text-amber flex-shrink-0" />
                   <span className="text-sm font-medium">{text}</span>
                 </div>
               ))}

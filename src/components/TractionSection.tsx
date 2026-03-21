@@ -38,7 +38,7 @@ export default function TractionSection() {
         >
           <h2 className="font-lora text-4xl md:text-5xl font-bold text-navy mb-4">
             We&apos;re Not Just an Idea —{" "}
-            <span className="text-forest-green">We&apos;re Already Moving</span>
+            <span className="text-amber">We&apos;re Already Moving</span>
           </h2>
         </motion.div>
 
@@ -52,13 +52,13 @@ export default function TractionSection() {
             className="bg-green-50 border border-green-100 rounded-3xl p-8"
           >
             <h3 className="font-lora font-bold text-xl text-navy mb-6 flex items-center gap-2">
-              <CheckCircle2 className="w-6 h-6 text-forest-green" />
+              <CheckCircle2 className="w-6 h-6 text-amber" />
               What We&apos;ve Built
             </h3>
             <ul className="space-y-4">
               {achieved.map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="text-forest-green text-lg flex-shrink-0">✅</span>
+                  <span className="text-amber text-lg flex-shrink-0">✅</span>
                   <span className="text-navy/75 leading-relaxed">{item}</span>
                 </li>
               ))}

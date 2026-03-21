@@ -17,7 +17,7 @@ export default function WhySection() {
         >
           <h2 className="font-lora text-4xl md:text-5xl font-bold text-navy mb-4">
             Why AutoDrive Is{" "}
-            <span className="text-forest-green">Different</span> From Everything
+            <span className="text-amber">Different</span> From Everything
             Else Out There
           </h2>
         </motion.div>
@@ -51,11 +51,11 @@ export default function WhySection() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.15 }}
-            className="bg-gradient-to-br from-forest-green/20 to-forest-green/5 border-2 border-forest-green/30 rounded-3xl p-8 hover:shadow-xl transition-all duration-300"
+            className="bg-gradient-to-br from-amber/20 to-amber/5 border-2 border-amber/30 rounded-3xl p-8 hover:shadow-xl transition-all duration-300"
           >
             <div className="flex items-center gap-3 mb-6">
               <div className="w-12 h-12 rounded-2xl bg-white shadow-sm flex items-center justify-center">
-                <Layers className="w-6 h-6 text-forest-green" />
+                <Layers className="w-6 h-6 text-amber" />
               </div>
               <span className="font-lora font-bold text-4xl text-gray-200">02</span>
             </div>

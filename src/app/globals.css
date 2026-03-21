@@ -4,7 +4,7 @@
 
 :root {
   --background: #FAFAF8;
-  --foreground: #0F2A45;
+  --foreground: #12316B;
 }
 
 html {
@@ -73,6 +73,6 @@ h1, h2, h3, h4, h5, h6 {
   background: #FAFAF8;
 }
 ::-webkit-scrollbar-thumb {
-  background: #1A6B3C;
+  background: #C9A84C;
   border-radius: 3px;
 }

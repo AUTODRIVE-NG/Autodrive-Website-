@@ -1,16 +1,15 @@
 "use client";
 
-import { Phone, Mail, MapPin, Instagram, Car } from "lucide-react";
+import { Phone, Mail, MapPin, Instagram } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 
 const BETA_URL = "https://forms.gle/G3Z2agiFyVE1cEWj8";
 
 const footerLinks = {
   Explore: [
-    { label: "How It Works", href: "/how-it-works" },
     { label: "Features", href: "/features" },
     { label: "Why AutoDrive", href: "/why-autodrive" },
-    { label: "Our Story", href: "/our-story" },
     { label: "Updates", href: "/updates" },
     { label: "FAQ", href: "/faq" },
   ],
@@ -19,8 +18,8 @@ const footerLinks = {
     { label: "iOS — Coming Soon", href: "#", disabled: true },
   ],
   Legal: [
-    { label: "Privacy Policy", href: "#" },
-    { label: "Terms of Service", href: "#" },
+    { label: "Privacy Policy", href: "/privacy-policy" },
+    { label: "Terms of Service", href: "/terms" },
   ],
 };
 
@@ -32,10 +31,14 @@ export default function Footer() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
             {/* Brand */}
             <div className="lg:col-span-1">
-              <Link href="/" className="flex items-center gap-2 mb-4">
-                <div className="w-10 h-10 rounded-full bg-forest-green flex items-center justify-center">
-                  <Car className="w-5 h-5 text-white" />
-                </div>
+              <Link href="/" className="flex items-center gap-3 mb-4">
+                <Image
+                  src="/images/logo-icon.png"
+                  alt="AutoDrive"
+                  width={40}
+                  height={40}
+                  className="w-10 h-10 rounded-xl"
+                />
                 <span className="font-lora font-bold text-2xl">AutoDrive</span>
               </Link>
               <p className="text-white/60 text-sm leading-relaxed mb-4">
@@ -53,7 +56,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="tel:08133754181"
-                    className="flex items-start gap-3 text-white/70 hover:text-soft-green transition-colors"
+                    className="flex items-start gap-3 text-white/70 hover:text-amber transition-colors"
                   >
                     <Phone className="w-5 h-5 flex-shrink-0 mt-0.5" />
                     <span>08133754181</span>
@@ -62,7 +65,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="mailto:autodrive.ng@gmail.com"
-                    className="flex items-start gap-3 text-white/70 hover:text-soft-green transition-colors"
+                    className="flex items-start gap-3 text-white/70 hover:text-amber transition-colors"
                   >
                     <Mail className="w-5 h-5 flex-shrink-0 mt-0.5" />
                     <span>autodrive.ng@gmail.com</span>
@@ -79,7 +82,7 @@ export default function Footer() {
                     href="https://instagram.com/_autodriveng"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-3 text-white/70 hover:text-soft-green transition-colors"
+                    className="flex items-center gap-3 text-white/70 hover:text-amber transition-colors"
                   >
                     <Instagram className="w-5 h-5" />
                     <span>@_autodriveng</span>
@@ -99,7 +102,7 @@ export default function Footer() {
                     const className = `text-sm transition-colors ${
                       isDisabled
                         ? "text-white/30 cursor-not-allowed"
-                        : "text-white/65 hover:text-soft-green"
+                        : "text-white/65 hover:text-amber"
                     }`;
 
                     if (isExternal) {

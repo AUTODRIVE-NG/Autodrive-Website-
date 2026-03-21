@@ -1,17 +1,16 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Menu, X, Car } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 
 const navLinks = [
   { label: "Home", href: "/" },
-  { label: "How It Works", href: "/how-it-works" },
   { label: "Features", href: "/features" },
   { label: "Why AutoDrive", href: "/why-autodrive" },
-  { label: "Our Story", href: "/our-story" },
   { label: "Updates", href: "/updates" },
   { label: "FAQ", href: "/faq" },
 ];
@@ -37,7 +36,7 @@ export default function Navbar() {
   return (
     <>
       {/* Announcement ticker */}
-      <div className="bg-forest-green text-white text-sm py-2 overflow-hidden">
+      <div className="bg-navy text-white text-sm py-2 overflow-hidden">
         <div className="ticker-content inline-block px-4">
           🟢 Beta is LIVE on Android — Limited slots available. Join now before it fills up!
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -53,13 +52,15 @@ export default function Navbar() {
       >
         <div className="max-w-7xl mx-auto px-4 md:px-8 flex items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 group flex-shrink-0">
-            <div className="w-9 h-9 rounded-full bg-forest-green flex items-center justify-center group-hover:bg-navy transition-colors">
-              <Car className="w-5 h-5 text-white" />
-            </div>
-            <span className="font-lora font-bold text-xl text-navy tracking-tight">
-              AutoDrive
-            </span>
+          <Link href="/" className="flex-shrink-0">
+            <Image
+              src="/images/logo-full.png"
+              alt="AutoDrive"
+              width={160}
+              height={52}
+              className="h-14 w-auto"
+              priority
+            />
           </Link>
 
           {/* Desktop links */}
@@ -70,8 +71,8 @@ export default function Navbar() {
                 href={link.href}
                 className={`transition-colors whitespace-nowrap ${
                   isActive(link.href)
-                    ? "text-forest-green font-semibold"
-                    : "text-navy/70 hover:text-forest-green"
+                    ? "text-amber font-semibold"
+                    : "text-navy/70 hover:text-amber"
                 }`}
               >
                 {link.label}
@@ -85,7 +86,7 @@ export default function Navbar() {
               href={BETA_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="hidden md:inline-flex items-center gap-2 bg-forest-green hover:bg-navy text-white text-sm font-semibold px-4 py-2.5 rounded-full transition-colors whitespace-nowrap"
+              className="hidden md:inline-flex items-center gap-2 bg-amber hover:bg-navy text-white text-sm font-semibold px-4 py-2.5 rounded-full transition-colors whitespace-nowrap"
             >
               Join the Beta — It&apos;s Free
             </a>
@@ -114,7 +115,7 @@ export default function Navbar() {
                   href={link.href}
                   onClick={() => setMenuOpen(false)}
                   className={`text-xl font-medium border-b border-gray-100 py-4 ${
-                    isActive(link.href) ? "text-forest-green font-semibold" : "text-navy"
+                    isActive(link.href) ? "text-amber font-semibold" : "text-navy"
                   }`}
                 >
                   {link.label}
@@ -124,7 +125,7 @@ export default function Navbar() {
                 href={BETA_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-6 bg-forest-green text-white text-center font-semibold px-6 py-4 rounded-full text-lg"
+                className="mt-6 bg-amber text-white text-center font-semibold px-6 py-4 rounded-full text-lg"
                 onClick={() => setMenuOpen(false)}
               >
                 Join the Beta — It&apos;s Free
