@@ -111,8 +111,8 @@ export default function HeroSection() {
             </motion.div>
 
             <h1 className="font-lora text-4xl md:text-5xl lg:text-5xl xl:text-6xl font-bold text-navy leading-tight mb-6">
-              Stop Worrying About Your Car Papers.{" "}
-              <span className="text-amber">We Handle Everything</span>{" "}
+              Stop Worrying About Your Car Papers. We Handle{" "}
+              <span className="text-amber">Everything</span>{" "}
               For You.
             </h1>
 
