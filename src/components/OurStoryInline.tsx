@@ -159,10 +159,8 @@ export default function OurStoryInline() {
           className="bg-navy rounded-3xl p-8 text-center"
         >
           <p className="text-white/70 text-lg">
-            Powered by a dedicated team:{" "}
-            <span className="text-white font-semibold">Temitayo</span> (Technical Lead) ·{" "}
-            <span className="text-white font-semibold">Mrs. Fehintoluwa</span> (Advisor, Government Relations) ·{" "}
-            <span className="text-white font-semibold">Pius</span> (Marketing)
+            Supported by{" "}
+            <span className="text-white font-semibold">Mrs. Fehintoluwa</span> — Advisor, Government Relations
           </p>
         </motion.div>
       </div>
