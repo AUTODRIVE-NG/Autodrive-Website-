@@ -5,16 +5,16 @@ import Image from "next/image";
 
 const founders = [
   {
-    name: "Ipinnuoluwa Oladipo",
-    role: "Co-Founder & CTO",
-    bio: "A product engineer and manager who found his passion for technology in his final year of university. He runs a tech agency and leads AutoDrive's product development — making sure the product works, ships, and actually serves the people it was built for.",
-    photo: "/images/founder-ipinnu.jpg",
-  },
-  {
     name: "Victor Tadese",
     role: "Co-Founder & CEO",
     bio: "As a graduate of Afe Babalola University with a background in tech and design, Victor serves as the operational lead for AutoDrive. Managing the essential workflows of the business, coordinating logistics and agent partnerships to the brand's visual identity.",
     photo: "/images/founder-victor.png",
+  },
+  {
+    name: "Ipinnuoluwa Oladipo",
+    role: "Co-Founder & CTO",
+    bio: "A product engineer and manager who found his passion for technology in his final year of university. He runs a tech agency and leads AutoDrive's product development — making sure the product works, ships, and actually serves the people it was built for.",
+    photo: "/images/founder-ipinnu.jpg",
   },
 ];
 
