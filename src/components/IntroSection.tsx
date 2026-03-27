@@ -1,13 +1,13 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Car, Users, Wrench, PackageCheck } from "lucide-react";
+import { Car, Award, FileWarning, PackageCheck } from "lucide-react";
 
 const stats = [
   { value: "12M+", label: "Registered vehicles in Nigeria", icon: Car },
-  { value: "1M+", label: "Annual document renewals in Lagos alone", icon: PackageCheck },
-  { value: "70%", label: "Of engine damage comes from missed maintenance", icon: Wrench },
-  { value: "0", label: "Nationwide delivery-first solutions — until now", icon: Users },
+  { value: "2M+", label: "Annual document renewals in Lagos alone", icon: PackageCheck },
+  { value: "75%", label: "Of cars have expired papers — FRSC, NIA", icon: FileWarning },
+  { value: "1st", label: "Nationwide automated delivery-first solution", icon: Award },
 ];
 
 export default function IntroSection() {
@@ -22,8 +22,8 @@ export default function IntroSection() {
           className="text-center mb-12"
         >
           <h2 className="font-lora text-4xl md:text-5xl font-bold text-white mb-6">
-            One App. Every Car Need.{" "}
-            <span className="text-amber">Zero Stress.</span>
+            Everything You Need,{" "}
+            <span className="text-amber">In One App.</span>
           </h2>
           <p className="text-white/70 text-xl leading-relaxed max-w-3xl mx-auto">
             AutoDrive is a Nigerian-built mobile app that puts your entire car

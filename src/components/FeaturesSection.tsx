@@ -44,9 +44,9 @@ const features = [
     title: "Seamless Document Renewal",
     tagline: "Renew your car papers with one tap — no stress, no queues, just results.",
     details: [
-      "Covers: Vehicle Licence, Motor Insurance, Roadworthiness Certificate, TIN, Proof of Ownership",
-      "We work through a trusted network of licensed agents",
-      "Payments processed securely via Flutterwave",
+      "Vehicle Licence, Motor Insurance, TIN, Proof of Ownership and more",
+      "We work directly with a trusted network of licensed agents",
+      "Payments are processed securely through Flutterwave",
     ],
     // Cart showing document selection per car (Vehicle License + Road Worthiness)
     image: "/images/frame-570.png",
@@ -56,12 +56,12 @@ const features = [
   },
   {
     icon: Bell,
-    title: "Smart Reminders & AutoRenew",
+    title: "Smart Reminders",
     tagline:
       "We remind you 90, 60, and 30 days before anything expires. With AutoRenew, we handle it automatically — so you don't have to think about it.",
     details: [
-      "Reminders via push notification, SMS, and email",
-      "AutoRenew coming soon — set it and forget it",
+      "Timely alerts via push notification, SMS, and email",
+      "Access your full renewal history and digital receipts at any time",
       "90, 60, and 30-day advance alerts for every document",
     ],
     // Car profile showing document expiry dates (some expired, some expiring soon)
@@ -77,9 +77,9 @@ const features = [
     tagline:
       "Once you place an order, watch it move from request to your doorstep — step by step.",
     details: [
-      "Live order status: Order Placed → Agent Confirmed → Papers Printed → Out for Delivery → Delivered",
-      "Order reference numbers for every transaction",
-      "Estimated delivery window shown in real-time",
+      "Monitor your document status as it moves from processing to dispatch",
+      "Order reference numbers for every renewal transaction",
+      "See your estimated delivery window inside the app",
     ],
     // Full delivery timeline screen — the clearest view of the tracking flow
     image: "/images/frame-568.png",
@@ -89,11 +89,11 @@ const features = [
   },
   {
     icon: AlertCircle,
-    title: "Manage & Pay Fines",
+    title: "Manage & Pay Fees",
     tagline:
       "Outstanding LASTMA or VIO fine? Don't let it grow. Pay it directly in the app — no more confusion about where to go or how much to pay.",
     details: [
-      "Track fines linked to your vehicle",
+      "Track fines linked to your vehicle (coming soon)",
       "Pay securely without visiting any office",
       "Stay compliant and stress-free",
     ],
@@ -109,9 +109,9 @@ const features = [
     tagline:
       "The moment your renewal is processed, we send the softcopy to your phone. Need the physical paper? We deliver it to your home or office — no queues, no errands.",
     details: [
-      "Softcopy: instant digital delivery to your phone",
-      "Hardcopy: doorstep delivery within 24–48hrs in Lagos",
-      "Coming soon: Akure and other urban centres",
+      "Get a digital copy sent instantly to your phone for immediate use",
+      "Receive your original hardcopy within 24–48 hours in Lagos",
+      "Expanding soon to bring doorstep delivery to more cities across Nigeria",
     ],
     // Completed orders screen — shows "View Document" for delivered orders
     image: "/images/frame-569.png",
@@ -125,9 +125,9 @@ const features = [
     tagline:
       "Add all your cars in one place. Give them names. See every detail at a glance — from documents to history. Made for families with multiple cars and fleet managers alike.",
     details: [
-      "Unlimited cars per account",
-      "Each car has its own profile with nickname, photo, and document dashboard",
-      "Inspired by real users: \"Tope's Baby\" — Lexus RX 350",
+      "Manage an unlimited number of vehicles under a single account",
+      "View individual car profiles with nicknames, photos, and documents",
+      "Built specifically for the needs of Nigerian multi-car households",
     ],
     // Home screen showing garage image + driver's licence + My Cars list
     image: "/images/frame-577.png",
@@ -148,9 +148,10 @@ export default function FeaturesSection() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
+          <p className="text-amber font-semibold tracking-widest uppercase text-sm mb-4">AutoDrive Features</p>
           <h2 className="font-lora text-4xl md:text-5xl font-bold text-navy mb-4">
-            Everything Your Car Needs.{" "}
-            <span className="text-amber">All in One Place.</span>
+            Drive Better,{" "}
+            <span className="text-amber">Stay Organized</span>
           </h2>
         </motion.div>
 

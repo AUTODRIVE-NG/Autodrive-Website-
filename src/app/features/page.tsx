@@ -22,8 +22,7 @@ export default function FeaturesPage() {
             <span className="text-amber">Can Do For You</span>
           </h1>
           <p className="text-white/70 text-xl leading-relaxed">
-            Four simple steps to get started, and six powerful features that
-            keep you road-legal without the stress.
+            Four steps to get started, and six features to keep you road-legal.
           </p>
         </div>
       </section>

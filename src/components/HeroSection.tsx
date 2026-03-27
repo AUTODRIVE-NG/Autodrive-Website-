@@ -10,9 +10,9 @@ const BETA_URL = "https://forms.gle/G3Z2agiFyVE1cEWj8";
 
 const trustItems = [
   { icon: CheckCircle, text: "No queues. No stress." },
-  { icon: Truck, text: "Doorstep delivery in Lagos" },
+  { icon: Truck, text: "Real-Time Order Tracking" },
   { icon: Bell, text: "Smart renewal reminders" },
-  { icon: Building2, text: "Backed by government partnerships" },
+  { icon: Building2, text: "Doorstep delivery in Lagos" },
 ];
 
 const screens = [
@@ -111,16 +111,18 @@ export default function HeroSection() {
             </motion.div>
 
             <h1 className="font-lora text-4xl md:text-5xl lg:text-5xl xl:text-6xl font-bold text-navy leading-tight mb-6">
-              Stop Worrying About Your Car Papers. We Handle{" "}
-              <span className="text-amber">Everything</span>{" "}
-              For You.
+              Stop Worrying About Your{" "}
+              <span className="text-amber">Car Papers.</span>
+              <br />
+              Your Garage,{" "}
+              <span className="text-amber">Fully Digital.</span>
             </h1>
 
             <p className="text-lg md:text-xl text-navy/70 leading-relaxed mb-8 max-w-xl">
-              AutoDrive is the app built for Nigerian drivers who are tired of
-              queues, late fines, and expired documents. Renew your papers, get
-              reminders, track your orders — all from your phone. Delivered to
-              your doorstep.
+              AutoDrive is the app built for Nigerian drivers tired of queues,
+              late fines and expired documents. Keep your cars and documents in
+              one place, get reminded before anything expires and renew papers
+              easily with delivery right to your doorstep.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-10">
@@ -131,7 +133,7 @@ export default function HeroSection() {
                 className="inline-flex items-center justify-center gap-2 bg-amber hover:bg-navy text-white font-semibold text-lg px-7 py-4 rounded-full transition-colors shadow-lg shadow-amber/25"
               >
                 <Download className="w-5 h-5" />
-                Download the App (Android Beta)
+                Join the Android Beta
               </a>
               <Link
                 href="/features"

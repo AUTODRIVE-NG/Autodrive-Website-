@@ -7,20 +7,20 @@ const problems = [
   {
     icon: AlertTriangle,
     emoji: "😰",
-    title: "You forgot your vehicle licence expired — until LASTMA stopped you",
-    body: "Over 18–25% of Nigerian drivers are on the road with expired documents at any given time. It's not laziness. It's a broken system.",
+    title: "Avoid the LASTMA headache",
+    body: "Most drivers only realize their papers have expired when they are pulled over. It isn't your fault, the system is designed to be forgotten until it's too late.",
   },
   {
     icon: Clock,
-    emoji: "🏃",
-    title: "You took half a day off work just to queue at a government office",
-    body: "Renewing your papers should not cost you a day's work, transport fare, and three hours of standing in the sun.",
+    emoji: "⏳",
+    title: "Save your working hours",
+    body: "Renewing documents shouldn't require taking a day off to stand in the sun. Stop wasting your transport fare and energy on government office queues.",
   },
   {
     icon: FileX,
-    emoji: "📄",
-    title: "Your papers are scattered — some at home, some in the car, some you can't even find",
-    body: "Between vehicle licence, insurance, roadworthiness, TIN, and more — keeping track of it all is a full-time job.",
+    emoji: "🔍",
+    title: "End the paper chase",
+    body: "Tracking your license, insurance, and roadworthiness certificates is a constant struggle. Stop digging through your glove box or home files to find what you need.",
   },
 ];
 
@@ -39,7 +39,7 @@ export default function ProblemSection() {
             Sound Familiar?
           </h2>
           <p className="text-xl text-navy/60 max-w-2xl mx-auto">
-            Millions of Nigerian drivers face this every single day.
+            Millions of Nigerian Drivers face this every day.
           </p>
         </motion.div>
 
