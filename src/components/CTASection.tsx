@@ -8,7 +8,7 @@ const BETA_URL = "https://forms.gle/G3Z2agiFyVE1cEWj8";
 const trustBadges = [
   { icon: Lock, label: "Secure" },
   { icon: Shield, label: "Nigerian-Built" },
-  { icon: Smartphone, label: "Android Beta Live" },
+  { icon: Smartphone, label: "Beta Live" },
 ];
 
 export default function CTASection() {
@@ -37,8 +37,7 @@ export default function CTASection() {
           </h2>
 
           <p className="text-white/70 text-xl leading-relaxed mb-10">
-            Join the AutoDrive beta today — it&apos;s free, it&apos;s easy, and your
-            neighbours are already signing up. Take back your time. Take back your peace of mind.
+            We&apos;re building AutoDrive to end the stress of vehicle paperwork. Join a growing community of Nigerians already in our beta for free and see how easy managing your car documents can be.
           </p>
 
           {/* CTA Button */}
@@ -51,16 +50,11 @@ export default function CTASection() {
             className="inline-flex items-center gap-3 bg-amber hover:bg-amber hover:text-navy text-white font-bold text-xl px-10 py-5 rounded-full transition-colors shadow-2xl shadow-amber/30 mb-4"
           >
             <Smartphone className="w-6 h-6" />
-            Join the Beta on Android — Free
+            Join the Android Beta
           </motion.a>
 
           <p className="text-white/50 text-sm mb-10">
-            Beta is currently on Android only. iOS coming very soon.
-          </p>
-
-          {/* Trust note */}
-          <p className="text-white/60 text-base mb-10">
-            No spam. No hidden fees. Just better car ownership.
+            iOS version coming soon.
           </p>
 
           {/* Trust badges */}

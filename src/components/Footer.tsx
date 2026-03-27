@@ -28,7 +28,7 @@ export default function Footer() {
     <footer id="contact" className="bg-navy text-white">
       <div className="section-padding border-b border-white/10">
         <div className="container-wide">
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
+          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-10">
             {/* Brand */}
             <div className="lg:col-span-1">
               <Link href="/" className="flex items-center gap-3 mb-4">
@@ -52,28 +52,28 @@ export default function Footer() {
             {/* Contact info */}
             <div className="lg:col-span-1">
               <h4 className="font-lora font-bold text-lg mb-5">Get in Touch</h4>
-              <ul className="space-y-4">
+              <ul className="space-y-3">
                 <li>
                   <a
                     href="tel:08133754181"
-                    className="flex items-start gap-3 text-white/70 hover:text-amber transition-colors"
+                    className="flex items-start gap-3 text-sm text-white/65 hover:text-amber transition-colors"
                   >
-                    <Phone className="w-5 h-5 flex-shrink-0 mt-0.5" />
+                    <Phone className="w-4 h-4 flex-shrink-0 mt-0.5" />
                     <span>08133754181</span>
                   </a>
                 </li>
                 <li>
                   <a
                     href="mailto:autodrive.ng@gmail.com"
-                    className="flex items-start gap-3 text-white/70 hover:text-amber transition-colors"
+                    className="flex items-start gap-3 text-sm text-white/65 hover:text-amber transition-colors"
                   >
-                    <Mail className="w-5 h-5 flex-shrink-0 mt-0.5" />
+                    <Mail className="w-4 h-4 flex-shrink-0 mt-0.5" />
                     <span>autodrive.ng@gmail.com</span>
                   </a>
                 </li>
                 <li>
-                  <div className="flex items-start gap-3 text-white/70">
-                    <MapPin className="w-5 h-5 flex-shrink-0 mt-0.5" />
+                  <div className="flex items-start gap-3 text-sm text-white/65">
+                    <MapPin className="w-4 h-4 flex-shrink-0 mt-0.5" />
                     <span>7 Oyedele Oguniyi Street, Lagos State, Nigeria</span>
                   </div>
                 </li>
@@ -82,9 +82,9 @@ export default function Footer() {
                     href="https://instagram.com/_autodriveng"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-3 text-white/70 hover:text-amber transition-colors"
+                    className="flex items-center gap-3 text-sm text-white/65 hover:text-amber transition-colors"
                   >
-                    <Instagram className="w-5 h-5" />
+                    <Instagram className="w-4 h-4" />
                     <span>@_autodriveng</span>
                   </a>
                 </li>
