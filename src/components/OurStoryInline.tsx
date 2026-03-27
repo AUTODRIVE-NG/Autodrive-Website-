@@ -7,7 +7,7 @@ const founders = [
   {
     name: "Ipinnuoluwa Oladipo",
     role: "Co-Founder & CTO",
-    bio: "The builder. Led Covenant University's Google Developer Program, teaching software engineering on Saturdays. Built every version of AutoDrive from scratch. His fingerprints are on every line of code.",
+    bio: "A product engineer and manager who found his passion for technology in his final year of university. He runs a tech agency and leads AutoDrive's product development — making sure the product works, ships, and actually serves the people it was built for.",
     photo: "/images/founder-ipinnu.jpg",
   },
   {
