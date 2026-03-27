@@ -18,7 +18,7 @@ const updates: Update[] = [
     tag: "🚀 Launch",
     tagColor: "bg-amber/15 text-amber border-amber/30",
     title: "AutoDrive Beta is Now Live on Android",
-    body: "After two years of building, testing, and iterating — our beta is finally live on the Google Play Store. Limited spots available. If you drive in Nigeria, this is for you.",
+    body: "After two years of building and testing, our beta is now available on the Google Play Store. We have limited spots available for drivers in Nigeria who want to help us refine the experience.",
     link: { label: "Join the Beta", href: "https://forms.gle/G3Z2agiFyVE1cEWj8" },
   },
   {
@@ -26,28 +26,28 @@ const updates: Update[] = [
     tag: "🤝 Partnership",
     tagColor: "bg-navy/10 text-navy border-navy/20",
     title: "Government Partnership Conversations Begin",
-    body: "We've had our first formal meetings with Lagos State Business Development and the Akure Government House. The vision is becoming a reality — AutoDrive wants to be the digital backbone for vehicle document management across Nigeria.",
+    body: "We held our first internal meetings concerning partnership with Lagos State Business Development office and the Akure Government House. These discussions focused on making AutoDrive the digital backbone for vehicle document management across the country.",
   },
   {
     date: "March 2025",
     tag: "💳 Product",
     tagColor: "bg-amber/15 text-amber border-amber/30",
     title: "Flutterwave Payment Integration Complete",
-    body: "You can now pay for document renewals and services directly in the app. No middlemen, no cash runs. Just tap, pay, and relax — your documents will be handled.",
+    body: "You can now pay for document renewals and services directly in the app. This integration removes the need for middlemen or cash transactions. You can simply tap and pay to have your documents handled.",
   },
   {
     date: "January 2025",
     tag: "📱 Product",
     tagColor: "bg-amber/15 text-amber border-amber/30",
-    title: "Version 3 Ships — Login, Car Profiles, Document Tracking",
-    body: "Our third major version brings login, full car profiles, and document expiry tracking. The vision was becoming real — and our early users confirmed it. The feedback has been incredible.",
+    title: "Version 3 Ships: Login, Car Profiles, and Document Tracking",
+    body: "Our third major version introduced secure login, full car profiles, and document expiry tracking. Feedback from early testers helped us confirm that the platform is solving the right problems.",
   },
   {
     date: "December 25, 2024",
     tag: "🎄 Milestone",
     tagColor: "bg-amber/15 text-amber border-amber/30",
-    title: "Version 2 Launched — First Real App, First Real Users",
-    body: "A full working app with a Hub, Mechanics section, and navigation. Launched on Christmas Day 2024 because we don't take days off when there's a problem to solve. First real users. First real feedback.",
+    title: "Version 2 Launched: First App and Initial Users",
+    body: "We released a working app featuring a central hub. This allowed us to gather our first set of real-world feedback from drivers using the platform.",
   },
 ];
 
@@ -71,6 +71,15 @@ export default function UpdatesSection() {
           </motion.div>
         ) : (
           <div className="space-y-8">
+            <motion.h2
+              initial={{ opacity: 0, y: 16 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5 }}
+              className="font-lora text-3xl md:text-4xl font-bold text-navy text-center mb-2"
+            >
+              Our <span className="text-amber">Journey</span>
+            </motion.h2>
             {updates.map((update, i) => (
               <motion.article
                 key={i}

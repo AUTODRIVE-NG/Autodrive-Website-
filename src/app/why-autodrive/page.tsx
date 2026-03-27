@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import WhySection from "@/components/WhySection";
 import OurStoryInline from "@/components/OurStoryInline";
-import WhoSection from "@/components/WhoSection";
-import TractionSection from "@/components/TractionSection";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
@@ -24,17 +22,13 @@ export default function WhyAutoDrivePage() {
             <span className="text-amber">And Why It Matters</span>
           </h1>
           <p className="text-white/70 text-xl leading-relaxed">
-            Every Nigerian driver knows the frustration. Queues, expired papers, unreliable agents.
-            AutoDrive exists because two people who lived that frustration decided to fix it.
-            Here&apos;s what makes us different — and who made it happen.
+            Every Nigerian driver knows the frustration: the endless queues, the expired papers, and the unreliable agents. AutoDrive exists because two people who lived that frustration decided to fix it. Here is what makes us different.
           </p>
         </div>
       </section>
 
       <WhySection />
       <OurStoryInline />
-      <WhoSection />
-      <TractionSection />
       <CTASection />
     </>
   );

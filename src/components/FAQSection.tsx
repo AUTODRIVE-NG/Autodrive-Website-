@@ -7,35 +7,35 @@ import { ChevronDown } from "lucide-react";
 const faqs = [
   {
     q: "Is AutoDrive safe and official?",
-    a: "Yes. We work through licensed agents and official government channels. Your payments are processed via Flutterwave, one of Nigeria's most trusted payment platforms. Your documents are the real deal — no shortcuts.",
+    a: "Yes. We process all renewals through licensed agents and official government channels. Payments are handled securely via Flutterwave, and every document issued is authentic and verifiable.",
   },
   {
     q: "How long does renewal take?",
-    a: "Digital copies are delivered instantly once processing is complete. Physical documents are delivered to your door within 24–48 hours in Lagos. No more taking time off work for this.",
+    a: "Digital copies are available in the app as soon as processing is complete. For physical documents, we deliver to your doorstep within 24 to 48 hours in Lagos.",
   },
   {
-    q: "Which documents can AutoDrive renew?",
-    a: "Vehicle Licence, Motor Insurance, Roadworthiness Certificate, TIN, and Proof of Ownership — with more coming soon. We're expanding our services regularly based on what our users need.",
+    q: "What documents can AutoDrive renew?",
+    a: "You can currently renew your Vehicle License, Motor Insurance, Roadworthiness Certificate, TIN, and Proof of Ownership. We are regularly adding more services based on user feedback.",
   },
   {
-    q: "Is the app free?",
-    a: "Joining the beta is completely free. You only pay for the documents you renew, plus a small service and delivery fee. No hidden charges, no subscription surprises.",
+    q: "Is the app free to use?",
+    a: "The beta is free to download and join. You only pay for the actual cost of your document renewals plus a standard service and delivery fee. We do not have any hidden charges.",
   },
   {
-    q: "I'm not very good with technology — can I still use it?",
-    a: "Absolutely. AutoDrive was built specifically to be simple. If you can send a WhatsApp message, you can use AutoDrive. We've tested it with people of all tech levels and ages — it just works.",
+    q: "I'm not very tech-savvy — can I still use it?",
+    a: "AutoDrive is designed to be straightforward and we ensure that the app is easy to navigate. It has been tested across all age groups to ensure it remains intuitive.",
   },
   {
-    q: "What cities are you in right now?",
-    a: "We're currently serving Lagos for physical delivery and processing. Akure is coming very soon, followed by Abuja, Port Harcourt, and other major cities across Nigeria.",
+    q: "What cities do you currently serve?",
+    a: "We currently offer physical delivery and processing in Lagos. We are expanding to other major cities across Nigeria soon.",
   },
   {
-    q: "Can I add more than one car?",
-    a: "Yes! Add all your cars — give each one a name, and track all their documents in one place. Whether you have one car or ten, AutoDrive handles them all. It's like a garage in your pocket.",
+    q: "Can I manage more than one car?",
+    a: "Yes. You can add multiple vehicles to a single account, give each one a nickname, and track all their documents. Whether you have one car or a fleet, the app organizes them all for you.",
   },
   {
-    q: "What if something goes wrong with my renewal?",
-    a: "We have an in-app support system and email support at autodrive.ng@gmail.com. Every order has a reference number and you can request reprocessing or refunds if needed. We stand behind every transaction.",
+    q: "What happens if there is an issue with my renewal?",
+    a: "We provide support directly through the app or via email at autodrive.ng@gmail.com. Every transaction has a unique reference number, and reprocessing or refunds can be initiated if an order is not completed adequately.",
   },
 ];
 

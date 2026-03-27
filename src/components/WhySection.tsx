@@ -7,20 +7,20 @@ const cards = [
   {
     icon: Zap,
     number: "01",
-    title: "Unavoidable — Because You Have No Choice",
-    body: "Every driver must renew documents, maintain their car, and stay road-legal. These aren't optional. AutoDrive makes the unavoidable effortless — helping you avoid fines, prevent breakdowns, and skip costly surprises. If you drive, you need us.",
+    title: "Built for the Essentials",
+    body: "Every driver must renew documents, maintain their car, and stay road-legal. AutoDrive makes this effortless by helping you avoid fines and skip costly surprises.",
   },
   {
     icon: Layers,
     number: "02",
-    title: "The First to Bring It All Together",
-    body: "Government portals are confusing. Roadside agents are unreliable. Other apps do bits and pieces. AutoDrive is the first platform to unite renewals, fine payments, document delivery, and car management in one seamless Nigerian-built ecosystem.",
+    title: "The First of Its Kind",
+    body: "Government portals can be confusing and manual agents are often a gamble. AutoDrive is the first platform to unite renewals, delivery, and car management in one digital experience.",
   },
   {
     icon: Users,
     number: "03",
-    title: "Built Around People You Already Trust",
-    body: "AutoDrive works with Nigeria's existing agent network — the same people your estate, church, and workplace already use. We give them better tools, so you get better service. Community trust, powered by technology.",
+    title: "Rooted in Local Trust",
+    body: "AutoDrive works with Nigeria's existing licensed agents — the same people your estate, church, and workplace already use. We give them better tools, so you get a reliable service.",
   },
 ];
 

@@ -4,25 +4,19 @@ import { motion } from "framer-motion";
 import { CheckCircle2, Clock } from "lucide-react";
 
 const achieved = [
-  "Fully functional MVP — live on Google Play Store (closed beta)",
-  "Softcopy delivery working and tested",
-  "Logistics partnerships in motion for physical Lagos delivery",
-  "Government meetings: Lagos State Business Development + Akure Government House",
-  "Flutterwave payment integration complete",
-  "2nd round of user testing underway",
+  "Fully functional MVP is live on Google Play Store",
+  "Digital document delivery is now active",
+  "Logistics partnerships in place for physical delivery in Lagos",
+  "Government meetings with Lagos State Business Development + Akure Government House",
+  "Secure payments fully integrated with Flutterwave",
+  "Second round of user testing is currently underway",
 ];
 
 const coming = [
-  "Apple App Store launch coming soon",
-  "AutoRenew (automatic renewals) in development",
-  "24–48hr physical delivery rolling out across Lagos",
-];
-
-const marketStats = [
-  { value: "13M+", label: "Registered vehicles in Nigeria" },
-  { value: "1M+", label: "Annual renewals in Lagos alone" },
-  { value: "18–25%", label: "Drivers currently on expired papers" },
-  { value: "10,000", label: "Target users — beta launch" },
+  "Launch on the Apple App Store",
+  "In-app payment for vehicle fines",
+  "Automatic renewal system in development",
+  "24–48 hour physical delivery rolling out across Lagos",
 ];
 
 export default function TractionSection() {
@@ -37,8 +31,8 @@ export default function TractionSection() {
           className="text-center mb-16"
         >
           <h2 className="font-lora text-4xl md:text-5xl font-bold text-navy mb-4">
-            We&apos;re Not Just an Idea —{" "}
-            <span className="text-amber">We&apos;re Already Moving</span>
+            What We&apos;ve{" "}
+            <span className="text-amber">Built</span> — and What&apos;s Coming
           </h2>
         </motion.div>
 
@@ -88,31 +82,11 @@ export default function TractionSection() {
 
             <div className="bg-amber/10 rounded-2xl p-4">
               <p className="text-sm text-amber font-semibold text-center">
-                💰 ₦50K+ projected early revenue · Growing waitlist
+                💰 ₦500K+ projected early revenue · Growing waitlist
               </p>
             </div>
           </motion.div>
         </div>
-
-        {/* Market stats */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.2 }}
-        >
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
-            {marketStats.map(({ value, label }, i) => (
-              <div
-                key={i}
-                className="bg-navy rounded-3xl p-6 text-center hover:bg-navy/90 transition-colors"
-              >
-                <p className="font-lora font-bold text-3xl text-amber mb-2">{value}</p>
-                <p className="text-white/65 text-sm leading-relaxed">{label}</p>
-              </div>
-            ))}
-          </div>
-        </motion.div>
       </div>
     </section>
   );

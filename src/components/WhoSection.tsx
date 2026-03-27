@@ -7,25 +7,19 @@ const personas = [
     emoji: "👨‍👩‍👧",
     title: "The Family Driver",
     subtitle: "For every parent managing the house car",
-    body: "You manage the car for the whole house. AutoDrive reminds you before the kids' school-run car becomes a problem. No more \"Honey, did you renew the vehicle licence?\"",
-  },
-  {
-    emoji: "🏘️",
-    title: "Estate Residents",
-    subtitle: "Group renewals & bulk discounts",
-    body: "Your neighbours are already using it. Group renewals and bulk discounts for estates. One person coordinates, everyone benefits.",
+    body: "Manage cars for the whole house. AutoDrive reminds you before the car becomes a problem on the road. No more asking, \"Honey, did you remember to renew the vehicle license?\"",
   },
   {
     emoji: "⛪",
-    title: "Church Members & Community Groups",
-    subtitle: "Trusted community partnerships",
-    body: "We partner with trusted communities for on-site renewals, group pricing, and referral rewards. Your pastor might just recommend us.",
+    title: "Communities & Groups",
+    subtitle: "Churches, estates, and workplaces",
+    body: "We partner with trusted organizations for on-site renewals and referral rewards. Whether it is your church, estate, or workplace, we bring the service directly to your community.",
   },
   {
     emoji: "🚗",
     title: "Fleet & Business Owners",
     subtitle: "Manage every vehicle in one place",
-    body: "Uber drivers, logistics companies, corporate fleets — manage every vehicle from one dashboard with bulk renewal processing. Scale without the stress.",
+    body: "Uber drivers, logistics companies, and corporate fleets can manage every vehicle from one central dashboard. Scale your operations without the administrative stress.",
   },
 ];
 
@@ -47,7 +41,7 @@ export default function WhoSection() {
           </h2>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid md:grid-cols-3 gap-6">
           {personas.map((persona, i) => (
             <motion.div
               key={i}

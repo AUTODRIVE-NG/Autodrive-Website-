@@ -3,29 +3,6 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 
-const timeline = [
-  {
-    date: "May 12, 2023",
-    title: "Version 1",
-    description: "Basic car maintenance tracker form (Ipi's Automobile). A Google Sheet, a dream, and a lot of stubbornness.",
-  },
-  {
-    date: "December 25, 2024",
-    title: "Version 2",
-    description: "Full app with Hub, Mechanics, and navigation. First real product. First real users.",
-  },
-  {
-    date: "January 12, 2025",
-    title: "Version 3",
-    description: "Login, car profiles, document tracking. The vision was becoming real.",
-  },
-  {
-    date: "June 12, 2025",
-    title: "Version 4 — Current MVP",
-    description: "Payment integrated, beta launch. Government partnerships. A growing waitlist. AutoDrive is here.",
-  },
-];
-
 const founders = [
   {
     name: "Ipinnuoluwa Oladipo",
@@ -36,7 +13,7 @@ const founders = [
   {
     name: "Victor Tadese",
     role: "Co-Founder & CEO",
-    bio: "The operator. Academic Director at Afebabalola University for his set. Ensures every moving part of AutoDrive aligns — from logistics to partnerships to the daily heartbeat of the business.",
+    bio: "As a graduate of Afe Babalola University with a background in tech and design, Victor serves as the operational lead for AutoDrive. Managing the essential workflows of the business, coordinating logistics and agent partnerships to the brand's visual identity.",
     photo: "/images/founder-victor.png",
   },
 ];
@@ -52,7 +29,7 @@ export default function OurStoryInline() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <p className="text-amber font-semibold tracking-widest uppercase text-sm mb-4">The People Behind It</p>
+          <p className="text-amber font-semibold tracking-widest uppercase text-sm mb-4">The People Behind AutoDrive</p>
           <h2 className="font-lora text-4xl md:text-5xl font-bold text-navy mb-4">
             We Didn&apos;t Study This Problem —{" "}
             <span className="text-amber">We Lived It</span>
@@ -72,46 +49,11 @@ export default function OurStoryInline() {
         >
           <div className="bg-white rounded-3xl p-8 md:p-10 shadow-sm border border-gray-100">
             <p className="text-lg text-navy/75 leading-relaxed mb-6">
-              It started as a single question: <em>why is renewing your car papers in Nigeria still this hard in 2023?</em> Two friends — Ipinnuoluwa and Victor — decided to stop complaining and start building. What began as a Google Sheet and a maintenance tracker form on May 12, 2023, has grown through four full product versions into a fully functional app on the Google Play Store.
+              It started with one question on May 12, 2023: <em>why is renewing car papers in Nigeria still this convoluted?</em> Two friends — Ipinnuoluwa and Victor — decided to stop complaining and start building AutoDrive. What began as a simple Google Sheet and a maintenance tracker has evolved through four major versions into the fully functional app available on the Google Play Store today.
             </p>
             <p className="text-lg text-navy/75 leading-relaxed">
-              They didn&apos;t come from big tech companies or venture capital. They built this at Covenant University, across late nights, failed prototypes, and two full years of iteration. By December 2024, they had a working app. By 2025, they were in government partnership conversations with Lagos State and Akure — and a growing waitlist of people saying: <em>&ldquo;I&apos;ve been waiting for this.&rdquo;</em>
+              They didn&apos;t start with venture capital or big tech backing. They built this through late nights, failed prototypes, and two years of constant iteration. By late 2024, they had their first working model. By 2025, they were engaging in partnership talks with authorities in Lagos and Akure. Today, they are growing a community of drivers who are finally ready for a better way to stay on the road.
             </p>
-          </div>
-        </motion.div>
-
-        {/* Timeline */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.2 }}
-          className="mb-20"
-        >
-          <h3 className="font-lora text-2xl font-bold text-navy text-center mb-10">
-            The Journey
-          </h3>
-          <div className="relative">
-            <div className="hidden md:block absolute top-6 left-0 right-0 h-0.5 bg-gray-200 z-0" />
-            <div className="grid md:grid-cols-4 gap-8">
-              {timeline.map((item, i) => (
-                <motion.div
-                  key={i}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.4, delay: i * 0.1 }}
-                  className="relative flex flex-col items-center text-center"
-                >
-                  <div className="w-12 h-12 rounded-full bg-amber flex items-center justify-center text-white font-bold text-lg z-10 mb-4 shadow-lg shadow-amber/25">
-                    {i + 1}
-                  </div>
-                  <p className="text-xs text-amber font-semibold mb-1">{item.date}</p>
-                  <h4 className="font-lora font-bold text-navy mb-2">{item.title}</h4>
-                  <p className="text-sm text-navy/60 leading-relaxed">{item.description}</p>
-                </motion.div>
-              ))}
-            </div>
           </div>
         </motion.div>
 

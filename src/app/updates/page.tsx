@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import TractionSection from "@/components/TractionSection";
 import UpdatesSection from "@/components/UpdatesSection";
 import CTASection from "@/components/CTASection";
 
@@ -22,13 +23,12 @@ export default function UpdatesPage() {
             <span className="text-amber">Updates</span>
           </h1>
           <p className="text-white/70 text-xl leading-relaxed">
-            We build in the open. Every milestone, every launch, every exciting
-            development — you&apos;ll hear it here first. Follow our journey as we
-            change how Nigeria manages its cars.
+            We build in the open. You can find every milestone, launch, and update right here as they happen. Follow our journey as we change the way Nigeria manages its cars.
           </p>
         </div>
       </section>
 
+      <TractionSection />
       <UpdatesSection />
       <CTASection />
     </>
