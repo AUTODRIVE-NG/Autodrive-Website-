@@ -36,7 +36,7 @@ export default function WhoSection() {
         >
           <h2 className="font-lora text-4xl md:text-5xl font-bold text-white mb-4">
             AutoDrive Is for{" "}
-            <span className="text-amber">Every Nigerian</span> Who Owns a
+            <span className="text-gold">Every Nigerian</span> Who Owns a
             Car
           </h2>
         </motion.div>
@@ -55,7 +55,7 @@ export default function WhoSection() {
               <h3 className="font-lora font-bold text-xl text-white mb-1">
                 {persona.title}
               </h3>
-              <p className="text-amber text-sm font-medium mb-4">
+              <p className="text-gold text-sm font-medium mb-4">
                 {persona.subtitle}
               </p>
               <p className="text-white/65 leading-relaxed text-sm">

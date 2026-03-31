@@ -14,12 +14,12 @@ export default function FeaturesPage() {
     <>
       <section className="section-padding bg-navy text-white text-center">
         <div className="container-wide max-w-3xl">
-          <p className="text-amber font-semibold tracking-widest uppercase text-sm mb-4">
+          <p className="text-gold font-semibold tracking-widest uppercase text-sm mb-4">
             Everything You Need
           </p>
           <h1 className="font-lora text-4xl md:text-6xl font-bold leading-tight mb-6">
             What AutoDrive{" "}
-            <span className="text-amber">Can Do For You</span>
+            <span className="text-gold">Can Do For You</span>
           </h1>
           <p className="text-white/70 text-xl leading-relaxed">
             Four steps to get started, and six features to keep you road-legal.

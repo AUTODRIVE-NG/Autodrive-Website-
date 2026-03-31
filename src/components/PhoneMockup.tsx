@@ -20,21 +20,21 @@ const screens = [
         {/* Car card */}
         <div className="mx-3 -mt-6 bg-white rounded-2xl shadow-lg p-4">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-full bg-amber/10 flex items-center justify-center">
-              <Car className="w-5 h-5 text-amber" />
+            <div className="w-10 h-10 rounded-full bg-gold/10 flex items-center justify-center">
+              <Car className="w-5 h-5 text-gold" />
             </div>
             <div className="flex-1">
               <p className="font-bold text-navy text-sm">Tope&apos;s Baby</p>
               <p className="text-gray-500 text-xs">Lexus RX 350 · GWA-125EY</p>
             </div>
-            <span className="text-xs bg-amber/10 text-amber font-semibold px-2 py-1 rounded-full">1 Due</span>
+            <span className="text-xs bg-gold/10 text-gold font-semibold px-2 py-1 rounded-full">1 Due</span>
           </div>
 
           <div className="mt-3 space-y-2">
             {[
-              { name: "Vehicle Licence", status: "Expires in 23 days", color: "text-amber" },
-              { name: "Motor Insurance", status: "Valid · 8 months left", color: "text-amber" },
-              { name: "Roadworthiness", status: "Valid · 4 months left", color: "text-amber" },
+              { name: "Vehicle Licence", status: "Expires in 23 days", color: "text-gold" },
+              { name: "Motor Insurance", status: "Valid · 8 months left", color: "text-gold" },
+              { name: "Roadworthiness", status: "Valid · 4 months left", color: "text-gold" },
             ].map((doc) => (
               <div key={doc.name} className="flex items-center justify-between">
                 <span className="text-xs text-gray-600">{doc.name}</span>
@@ -66,7 +66,7 @@ const screens = [
       <div className="flex flex-col h-full bg-[#F4F6FA]">
         <div className="bg-[#0F2A45] px-4 pt-6 pb-10 rounded-b-3xl">
           <div className="flex items-center gap-2">
-            <Bell className="w-4 h-4 text-amber" />
+            <Bell className="w-4 h-4 text-gold" />
             <p className="text-white font-bold text-base font-lora">Renewal Alerts</p>
           </div>
           <p className="text-white/60 text-xs mt-1">3 upcoming renewals</p>
@@ -78,7 +78,7 @@ const screens = [
               car: "Tope&apos;s Baby",
               doc: "Vehicle Licence",
               days: 23,
-              urgency: "bg-amber/10 text-amber border-amber/20",
+              urgency: "bg-gold/10 text-gold border-gold/20",
               badge: "Due Soon",
             },
             {
@@ -92,7 +92,7 @@ const screens = [
               car: "The Family Car",
               doc: "Motor Insurance",
               days: 120,
-              urgency: "bg-green-50 text-amber border-green-100",
+              urgency: "bg-green-50 text-gold border-green-100",
               badge: "Upcoming",
             },
           ].map((alert, i) => (
@@ -110,7 +110,7 @@ const screens = [
                   {alert.badge}
                 </span>
               </div>
-              <button className="mt-3 w-full bg-amber text-white text-xs font-semibold py-2 rounded-xl">
+              <button className="mt-3 w-full bg-gold text-white text-xs font-semibold py-2 rounded-xl">
                 Renew Now
               </button>
             </div>
@@ -126,7 +126,7 @@ const screens = [
       <div className="flex flex-col h-full bg-[#F4F6FA]">
         <div className="bg-[#0F2A45] px-4 pt-6 pb-8 rounded-b-3xl">
           <div className="flex items-center gap-2">
-            <Package className="w-4 h-4 text-amber" />
+            <Package className="w-4 h-4 text-gold" />
             <p className="text-white font-bold text-base font-lora">Order Tracking</p>
           </div>
           <p className="text-white/60 text-xs mt-1">Order #AD-2025-0041</p>
@@ -148,9 +148,9 @@ const screens = [
                 <div
                   className={`w-7 h-7 rounded-full flex items-center justify-center flex-shrink-0 ${
                     step.done
-                      ? "bg-amber"
+                      ? "bg-gold"
                       : step.active
-                      ? "bg-amber ring-4 ring-amber/20"
+                      ? "bg-gold ring-4 ring-gold/20"
                       : "bg-gray-200"
                   }`}
                 >
@@ -165,13 +165,13 @@ const screens = [
                   )}
                 </div>
                 {i < 4 && (
-                  <div className={`w-0.5 h-6 mt-1 ${step.done ? "bg-amber" : "bg-gray-200"}`} />
+                  <div className={`w-0.5 h-6 mt-1 ${step.done ? "bg-gold" : "bg-gray-200"}`} />
                 )}
               </div>
               <div className="pt-1">
                 <p
                   className={`text-sm font-medium ${
-                    step.active ? "text-amber" : step.done ? "text-amber" : "text-gray-400"
+                    step.active ? "text-gold" : step.done ? "text-gold" : "text-gray-400"
                   }`}
                 >
                   {step.label}
@@ -184,8 +184,8 @@ const screens = [
           ))}
         </div>
 
-        <div className="mx-3 mt-3 bg-amber/10 rounded-xl p-3">
-          <p className="text-xs text-amber font-medium text-center">
+        <div className="mx-3 mt-3 bg-gold/10 rounded-xl p-3">
+          <p className="text-xs text-gold font-medium text-center">
             📍 Estimated delivery: Today, 4:00–6:00 PM
           </p>
         </div>
@@ -207,7 +207,7 @@ export default function PhoneMockup() {
   return (
     <div className="relative flex justify-center items-center">
       {/* Glow */}
-      <div className="absolute inset-0 bg-amber/20 rounded-full blur-3xl scale-75 opacity-60" />
+      <div className="absolute inset-0 bg-gold/20 rounded-full blur-3xl scale-75 opacity-60" />
 
       {/* Phone frame */}
       <div className="relative w-[280px] h-[580px] bg-[#0F2A45] rounded-[44px] shadow-2xl border-[6px] border-[#1a3a55] overflow-hidden">
@@ -241,7 +241,7 @@ export default function PhoneMockup() {
             key={i}
             onClick={() => setCurrent(i)}
             className={`w-2 h-2 rounded-full transition-all ${
-              i === current ? "bg-amber w-6" : "bg-gray-300"
+              i === current ? "bg-gold w-6" : "bg-gray-300"
             }`}
           />
         ))}

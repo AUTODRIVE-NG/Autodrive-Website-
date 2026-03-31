@@ -9,10 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        navy: "#0F2A45",
-        "forest-green": "#1A6B3C",
-        "soft-green": "#4ade80",
-        amber: "#D97706",
+        navy: "#12316B",
+        gold: "#C9A84C",
         "off-white": "#FAFAF8",
       },
       fontFamily: {

@@ -71,8 +71,8 @@ export default function Navbar() {
                 href={link.href}
                 className={`transition-colors whitespace-nowrap ${
                   isActive(link.href)
-                    ? "text-amber font-semibold"
-                    : "text-navy/70 hover:text-amber"
+                    ? "text-gold font-semibold"
+                    : "text-navy/70 hover:text-gold"
                 }`}
               >
                 {link.label}
@@ -86,7 +86,7 @@ export default function Navbar() {
               href={BETA_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="hidden md:inline-flex items-center gap-2 bg-amber hover:bg-navy text-white text-sm font-semibold px-4 py-2.5 rounded-full transition-colors whitespace-nowrap"
+              className="hidden md:inline-flex items-center gap-2 bg-gold hover:bg-navy text-white text-sm font-semibold px-4 py-2.5 rounded-full transition-colors whitespace-nowrap"
             >
               Join the Beta — It&apos;s Free
             </a>
@@ -115,7 +115,7 @@ export default function Navbar() {
                   href={link.href}
                   onClick={() => setMenuOpen(false)}
                   className={`text-xl font-medium border-b border-gray-100 py-4 ${
-                    isActive(link.href) ? "text-amber font-semibold" : "text-navy"
+                    isActive(link.href) ? "text-gold font-semibold" : "text-navy"
                   }`}
                 >
                   {link.label}
@@ -125,7 +125,7 @@ export default function Navbar() {
                 href={BETA_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-6 bg-amber text-white text-center font-semibold px-6 py-4 rounded-full text-lg"
+                className="mt-6 bg-gold text-white text-center font-semibold px-6 py-4 rounded-full text-lg"
                 onClick={() => setMenuOpen(false)}
               >
                 Join the Beta — It&apos;s Free

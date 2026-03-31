@@ -16,7 +16,7 @@ const updates: Update[] = [
   {
     date: "June 12, 2025",
     tag: "🚀 Launch",
-    tagColor: "bg-amber/15 text-amber border-amber/30",
+    tagColor: "bg-gold/15 text-gold border-gold/30",
     title: "AutoDrive Beta is Now Live on Android",
     body: "After two years of building and testing, our beta is now available on the Google Play Store. We have limited spots available for drivers in Nigeria who want to help us refine the experience.",
     link: { label: "Join the Beta", href: "https://forms.gle/G3Z2agiFyVE1cEWj8" },
@@ -31,21 +31,21 @@ const updates: Update[] = [
   {
     date: "March 2025",
     tag: "💳 Product",
-    tagColor: "bg-amber/15 text-amber border-amber/30",
+    tagColor: "bg-gold/15 text-gold border-gold/30",
     title: "Flutterwave Payment Integration Complete",
     body: "You can now pay for document renewals and services directly in the app. This integration removes the need for middlemen or cash transactions. You can simply tap and pay to have your documents handled.",
   },
   {
     date: "January 2025",
     tag: "📱 Product",
-    tagColor: "bg-amber/15 text-amber border-amber/30",
+    tagColor: "bg-gold/15 text-gold border-gold/30",
     title: "Version 3 Ships: Login, Car Profiles, and Document Tracking",
     body: "Our third major version introduced secure login, full car profiles, and document expiry tracking. Feedback from early testers helped us confirm that the platform is solving the right problems.",
   },
   {
     date: "December 25, 2024",
     tag: "🎄 Milestone",
-    tagColor: "bg-amber/15 text-amber border-amber/30",
+    tagColor: "bg-gold/15 text-gold border-gold/30",
     title: "Version 2 Launched: First App and Initial Users",
     body: "We released a working app featuring a central hub. This allowed us to gather our first set of real-world feedback from drivers using the platform.",
   },
@@ -78,7 +78,7 @@ export default function UpdatesSection() {
               transition={{ duration: 0.5 }}
               className="font-lora text-3xl md:text-4xl font-bold text-navy text-center mb-2"
             >
-              Our <span className="text-amber">Journey</span>
+              Our <span className="text-gold">Journey</span>
             </motion.h2>
             {updates.map((update, i) => (
               <motion.article
@@ -112,7 +112,7 @@ export default function UpdatesSection() {
                     href={update.link.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 text-amber font-semibold text-sm hover:gap-3 transition-all"
+                    className="inline-flex items-center gap-2 text-gold font-semibold text-sm hover:gap-3 transition-all"
                   >
                     {update.link.label}
                     <ArrowRight className="w-4 h-4" />

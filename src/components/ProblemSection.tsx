@@ -70,9 +70,9 @@ export default function ProblemSection() {
           transition={{ duration: 0.5, delay: 0.4 }}
           className="flex flex-col items-center gap-3"
         >
-          <ArrowDown className="w-8 h-8 text-amber animate-bounce" strokeWidth={2.5} />
+          <ArrowDown className="w-8 h-8 text-gold animate-bounce" strokeWidth={2.5} />
           <p className="font-lora text-2xl font-semibold text-navy">
-            AutoDrive fixes <span className="text-amber">all of this.</span>
+            AutoDrive fixes <span className="text-gold">all of this.</span>
           </p>
         </motion.div>
       </div>

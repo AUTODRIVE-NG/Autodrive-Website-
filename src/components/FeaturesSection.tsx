@@ -148,10 +148,10 @@ export default function FeaturesSection() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <p className="text-amber font-semibold tracking-widest uppercase text-sm mb-4">AutoDrive Features</p>
+          <p className="text-gold font-semibold tracking-widest uppercase text-sm mb-4">AutoDrive Features</p>
           <h2 className="font-lora text-4xl md:text-5xl font-bold text-navy mb-4">
             Drive Better,{" "}
-            <span className="text-amber">Stay Organized</span>
+            <span className="text-gold">Stay Organized</span>
           </h2>
         </motion.div>
 
@@ -167,7 +167,7 @@ export default function FeaturesSection() {
             >
               {/* Text */}
               <div className={feature.flip ? "lg:order-2" : "lg:order-1"}>
-                <div className="inline-flex items-center gap-3 bg-amber/10 text-amber px-4 py-2 rounded-full mb-5">
+                <div className="inline-flex items-center gap-3 bg-gold/10 text-gold px-4 py-2 rounded-full mb-5">
                   <feature.icon className="w-5 h-5" />
                   <span className="text-sm font-semibold">Feature 0{i + 1}</span>
                 </div>
@@ -180,7 +180,7 @@ export default function FeaturesSection() {
                 <ul className="space-y-3">
                   {feature.details.map((detail, j) => (
                     <li key={j} className="flex items-start gap-3 text-navy/70">
-                      <span className="w-5 h-5 rounded-full bg-amber/20 text-amber flex items-center justify-center flex-shrink-0 mt-0.5 text-xs font-bold">
+                      <span className="w-5 h-5 rounded-full bg-gold/20 text-gold flex items-center justify-center flex-shrink-0 mt-0.5 text-xs font-bold">
                         ✓
                       </span>
                       {detail}

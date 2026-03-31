@@ -32,7 +32,7 @@ export default function TractionSection() {
         >
           <h2 className="font-lora text-4xl md:text-5xl font-bold text-navy mb-4">
             What We&apos;ve{" "}
-            <span className="text-amber">Built</span> — and What&apos;s Coming
+            <span className="text-gold">Built</span> — and What&apos;s Coming
           </h2>
         </motion.div>
 
@@ -46,13 +46,13 @@ export default function TractionSection() {
             className="bg-green-50 border border-green-100 rounded-3xl p-8"
           >
             <h3 className="font-lora font-bold text-xl text-navy mb-6 flex items-center gap-2">
-              <CheckCircle2 className="w-6 h-6 text-amber" />
+              <CheckCircle2 className="w-6 h-6 text-gold" />
               What We&apos;ve Built
             </h3>
             <ul className="space-y-4">
               {achieved.map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="text-amber text-lg flex-shrink-0">✅</span>
+                  <span className="text-gold text-lg flex-shrink-0">✅</span>
                   <span className="text-navy/75 leading-relaxed">{item}</span>
                 </li>
               ))}
@@ -65,23 +65,23 @@ export default function TractionSection() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.1 }}
-            className="bg-amber/5 border border-amber/20 rounded-3xl p-8"
+            className="bg-gold/5 border border-gold/20 rounded-3xl p-8"
           >
             <h3 className="font-lora font-bold text-xl text-navy mb-6 flex items-center gap-2">
-              <Clock className="w-6 h-6 text-amber" />
+              <Clock className="w-6 h-6 text-gold" />
               What&apos;s Coming
             </h3>
             <ul className="space-y-4 mb-8">
               {coming.map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="text-amber text-lg flex-shrink-0">🔜</span>
+                  <span className="text-gold text-lg flex-shrink-0">🔜</span>
                   <span className="text-navy/75 leading-relaxed">{item}</span>
                 </li>
               ))}
             </ul>
 
-            <div className="bg-amber/10 rounded-2xl p-4">
-              <p className="text-sm text-amber font-semibold text-center">
+            <div className="bg-gold/10 rounded-2xl p-4">
+              <p className="text-sm text-gold font-semibold text-center">
                 💰 ₦500K+ projected early revenue · Growing waitlist
               </p>
             </div>

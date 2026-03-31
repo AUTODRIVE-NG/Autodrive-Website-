@@ -56,7 +56,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="tel:08133754181"
-                    className="flex items-start gap-3 text-sm text-white/65 hover:text-amber transition-colors"
+                    className="flex items-start gap-3 text-sm text-white/65 hover:text-gold transition-colors"
                   >
                     <Phone className="w-4 h-4 flex-shrink-0 mt-0.5" />
                     <span>08133754181</span>
@@ -65,7 +65,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="mailto:autodrive.ng@gmail.com"
-                    className="flex items-start gap-3 text-sm text-white/65 hover:text-amber transition-colors"
+                    className="flex items-start gap-3 text-sm text-white/65 hover:text-gold transition-colors"
                   >
                     <Mail className="w-4 h-4 flex-shrink-0 mt-0.5" />
                     <span>autodrive.ng@gmail.com</span>
@@ -82,7 +82,7 @@ export default function Footer() {
                     href="https://instagram.com/_autodriveng"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-3 text-sm text-white/65 hover:text-amber transition-colors"
+                    className="flex items-center gap-3 text-sm text-white/65 hover:text-gold transition-colors"
                   >
                     <Instagram className="w-4 h-4" />
                     <span>@_autodriveng</span>
@@ -102,7 +102,7 @@ export default function Footer() {
                     const className = `text-sm transition-colors ${
                       isDisabled
                         ? "text-white/30 cursor-not-allowed"
-                        : "text-white/65 hover:text-amber"
+                        : "text-white/65 hover:text-gold"
                     }`;
 
                     if (isExternal) {

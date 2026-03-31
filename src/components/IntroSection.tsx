@@ -23,7 +23,7 @@ export default function IntroSection() {
         >
           <h2 className="font-lora text-4xl md:text-5xl font-bold text-white mb-6">
             Everything You Need,{" "}
-            <span className="text-amber">In One App.</span>
+            <span className="text-gold">In One App.</span>
           </h2>
           <p className="text-white/70 text-xl leading-relaxed max-w-3xl mx-auto">
             AutoDrive is a Nigerian-built mobile app that puts your entire car
@@ -45,8 +45,8 @@ export default function IntroSection() {
               transition={{ duration: 0.5, delay: i * 0.1 }}
               className="bg-white/5 border border-white/10 rounded-3xl p-6 text-center hover:bg-white/10 transition-colors"
             >
-              <Icon className="w-7 h-7 text-amber mx-auto mb-3" />
-              <p className="font-lora font-bold text-4xl text-amber mb-2">{value}</p>
+              <Icon className="w-7 h-7 text-gold mx-auto mb-3" />
+              <p className="font-lora font-bold text-4xl text-gold mb-2">{value}</p>
               <p className="text-white/65 text-sm leading-relaxed">{label}</p>
             </motion.div>
           ))}

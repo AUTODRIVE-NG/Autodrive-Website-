@@ -29,10 +29,10 @@ export default function OurStoryInline() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <p className="text-amber font-semibold tracking-widest uppercase text-sm mb-4">The People Behind AutoDrive</p>
+          <p className="text-gold font-semibold tracking-widest uppercase text-sm mb-4">The People Behind AutoDrive</p>
           <h2 className="font-lora text-4xl md:text-5xl font-bold text-navy mb-4">
             We Didn&apos;t Study This Problem —{" "}
-            <span className="text-amber">We Lived It</span>
+            <span className="text-gold">We Lived It</span>
           </h2>
           <p className="text-navy/60 text-lg max-w-2xl mx-auto">
             AutoDrive isn&apos;t a corporate product built in a boardroom. It was built by two Nigerian drivers who got tired of the same broken system you&apos;re navigating right now.
@@ -82,7 +82,7 @@ export default function OurStoryInline() {
                 <div className="absolute inset-0 bg-gradient-to-t from-navy/60 via-transparent to-transparent" />
                 <div className="absolute bottom-4 left-6">
                   <h4 className="font-lora font-bold text-xl text-white">{founder.name}</h4>
-                  <p className="text-amber font-semibold text-sm">{founder.role}</p>
+                  <p className="text-gold font-semibold text-sm">{founder.role}</p>
                 </div>
               </div>
               <div className="p-6">

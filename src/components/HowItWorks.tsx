@@ -32,9 +32,9 @@ const steps = [
     icon: Download,
     title: "Download & Sign Up",
     body: "Create your AutoDrive account in minutes. Just add your name, phone number, and your driver's licence details to get started.",
-    numColor: "text-amber",
-    accent: "border-amber/30",
-    iconColor: "bg-amber/10 text-amber",
+    numColor: "text-gold",
+    accent: "border-gold/30",
+    iconColor: "bg-gold/10 text-gold",
     image: { src: "/images/frame-565.png", alt: "AutoDrive splash screen", cropPosition: "top" },
   },
   {
@@ -52,9 +52,9 @@ const steps = [
     icon: CreditCard,
     title: "Renew With One Tap",
     body: "See exactly what is due. Tap to renew and we handle the processing and delivery straight to your Lagos doorstep within 48 hours.",
-    numColor: "text-amber",
-    accent: "border-amber/30",
-    iconColor: "bg-amber/10 text-amber",
+    numColor: "text-gold",
+    accent: "border-gold/30",
+    iconColor: "bg-gold/10 text-gold",
     image: { src: "/images/frame-567.png", alt: "Renewal order with live tracking", cropPosition: "top" },
   },
   {
@@ -62,9 +62,9 @@ const steps = [
     icon: Bell,
     title: "Track Your Orders",
     body: "AutoDrive tracks your expiry dates and sets up automated reminders. We keep you compliant so you can drive with confidence.",
-    numColor: "text-amber",
-    accent: "border-amber/40",
-    iconColor: "bg-amber/20 text-amber",
+    numColor: "text-gold",
+    accent: "border-gold/40",
+    iconColor: "bg-gold/20 text-gold",
     image: { src: "/images/frame-571.png", alt: "Car profile showing document expiry status", cropPosition: "bottom" },
   },
 ];
@@ -82,7 +82,7 @@ export default function HowItWorks() {
         >
           <h2 className="font-lora text-4xl md:text-5xl font-bold text-navy mb-4">
             Getting Started With{" "}
-            <span className="text-amber">AutoDrive</span>
+            <span className="text-gold">AutoDrive</span>
           </h2>
         </motion.div>
 

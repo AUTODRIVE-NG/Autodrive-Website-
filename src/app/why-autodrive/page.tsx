@@ -14,12 +14,12 @@ export default function WhyAutoDrivePage() {
     <>
       <section className="section-padding bg-navy text-white text-center">
         <div className="container-wide max-w-3xl">
-          <p className="text-amber font-semibold tracking-widest uppercase text-sm mb-4">
+          <p className="text-gold font-semibold tracking-widest uppercase text-sm mb-4">
             The Full Picture
           </p>
           <h1 className="font-lora text-4xl md:text-6xl font-bold leading-tight mb-6">
             Why AutoDrive —{" "}
-            <span className="text-amber">And Why It Matters</span>
+            <span className="text-gold">And Why It Matters</span>
           </h1>
           <p className="text-white/70 text-xl leading-relaxed">
             Every Nigerian driver knows the frustration: the endless queues, the expired papers, and the unreliable agents. AutoDrive exists because two people who lived that frustration decided to fix it. Here is what makes us different.

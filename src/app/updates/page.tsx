@@ -15,12 +15,12 @@ export default function UpdatesPage() {
       {/* Page hero */}
       <section className="section-padding bg-navy text-white text-center">
         <div className="container-wide max-w-3xl">
-          <p className="text-amber font-semibold tracking-widest uppercase text-sm mb-4">
+          <p className="text-gold font-semibold tracking-widest uppercase text-sm mb-4">
             What&apos;s New
           </p>
           <h1 className="font-lora text-4xl md:text-6xl font-bold leading-tight mb-6">
             AutoDrive{" "}
-            <span className="text-amber">Updates</span>
+            <span className="text-gold">Updates</span>
           </h1>
           <p className="text-white/70 text-xl leading-relaxed">
             We build in the open. You can find every milestone, launch, and update right here as they happen. Follow our journey as we change the way Nigeria manages its cars.
