@@ -6,11 +6,12 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  safelist: [{ pattern: /gold/ }],
   theme: {
     extend: {
       colors: {
         navy: "#12316B",
-        gold: "#C9A84C",
+        gold: "rgb(var(--color-gold) / <alpha-value>)",
         "off-white": "#FAFAF8",
       },
       fontFamily: {
